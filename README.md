@@ -1,4 +1,5 @@
-# Portfólio Mateus Henrique
-Meu portfólio pessoal de projetos e experiências profissionais.
+# Currículo/Portfólio Mateus Henrique
+Meu currículo pessoal e portfólio de projetos.
 
-https://mateushff.github.io/portfolio
+https://mateushff.github.io/curriculo-publico
+
