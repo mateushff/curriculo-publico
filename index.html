@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <title>Curr&iacute;culo - Mateus Henrique</title>
+    <link rel="icon" type="image/x-icon" href="assets/imgs/ico.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="d-flex">
+        <nav class="sidebar d-flex flex-column flex-shrink-0 position-fixed">
+            <button class="toggle-btn" onclick="toggleSidebar()">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="p-4">
+                <h4 class="logo-text fw-bold mb-0">Curr&iacute;culo</h4>
+            </div>
+
+            <div class="nav flex-column">
+                <a href="index.html" class="sidebar-link active text-decoration-none p-3">
+                    <i class="fas fa-home me-3"></i>
+                    <span class="hide-on-collapse">Sobre Mim</span>
+                </a>
+                <a href="expprof.html" class="sidebar-link text-decoration-none p-3">
+                    <i class="fas fa-briefcase me-3"></i>
+                    <span class="hide-on-collapse">Experiências Profissionais</span>
+                </a>
+                <a href="projetos.html" class="sidebar-link text-decoration-none p-3">
+                    <i class="fas fa-tasks me-3"></i>
+                    <span class="hide-on-collapse">Projetos</span>
+                </a>
+
+                <a href="cursos.html" class="sidebar-link text-decoration-none p-3">
+                    <i class="fas fa-graduation-cap me-3"></i>
+                    <span class="hide-on-collapse">Cursos e Escolaridade</span>
+                </a>
+            </div>
+
+            <div class="profile-section mt-auto p-4">
+                <div class="d-flex align-items-center">
+                    <img src="assets/imgs/perfil.jpg" style="height:60px" class="rounded" alt="Foto de perfil">
+                    <div class="ms-3 profile-info">
+                        <h6 class="text-white mb-0">Mateus Henrique</h6>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <div class="container-fluid">
+                <h2>Sobre mim</h2>
+                <img src="assets/imgs/perfil2.jpg" style="height:400px; margin: 5px; float:left" class="rounded"
+                    alt="Foto de perfil">
+                <p class="text-muted">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meu nome é Mateus Henrique, tenho <span id="idade">x</span> anos
+                    e <b>possuo <span id="experiencia_profissional">x</span> anos de experiência profissional</b> na
+                    área de TI. Atualmente estou focado na carreira de <b>desenvolvimento back-end</b>, porém tenho
+                    grande interesse em redes e banco de dados.
+                    O começo da minha carreira foi na área de suporte e manutenção de computadores na UERJ
+                    em Resende, trabalhei também como suporte em uma empresa chamada ECONRIO, lá obtive oportunidade de
+                    migrar de área para desenvolvimento onde cresci bastante profissionalmente. Atualmente trabalho na
+                    Prefeitura de Resende há <span id="tempo_exp_ult_emp">x</span> anos na área de desenvolvimento e
+                    ajudo em outras áreas como redes e suporte.
+                </p>
+                <p class="text-muted">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tenho <b>Pós Graduação</b> MBA em Segurança da Informação,
+                    cursei <b>Análise e Desenvolvimento de Sistemas</b> pela Estácio e tenho Técnico em Informática.
+                    Falo inglês em nível intermediário e tenho <b>certificado Entry Level in ESOL International (Entry
+                        3) na Cambridge English</b>.
+                </p>
+                <p class="text-muted">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Minhas melhores competências técnicas são desenvolvimento em:
+                    <b>PHP</b>, NodeJS, ColdFusion e C#; vasta experiência com <b>PostgreSQL</b>; suportes níveis 1, 2 e
+                    3; experiência com <b>redes</b> e manutenção. Tenho outras experiências profissionais que podem ser
+                    encontradas no menu à esquerda.
+                </p>
+                <p class="text-muted">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fique à vontade para ver este site, ele foi criado para
+                    facilitar a leitura do meu currículo e conseguir obter um pouco da minha personalidade, tem a minha
+                    palavra que nenhuma IA foi utilizada para gerar códigos ou textos e nem mesmo revisá-los.
+                </p>
+            </div>
+        </main>
+        <script src="assets/scripts_sidebar.js" integrity="sha256-O9xUYmnjR2x/9NQ35IRlbNx4xzpj/5nw2x31jNEknRo="
+            crossorigin="anonymous"></script>
+
+        <script src="assets/scripts_dinamico.js" integrity="sha256-PwKaSyvvt4vjmpcqF7jfEDnXX3DKxn8maFMJJXWNr2U="
+            crossorigin="anonymous"></script>
+
+        <script>
+            attIdade();
+            attExpProf();
+            attUltEmp();
+        </script>
+    </div>
+
+</body>
+
+</html>

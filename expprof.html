@@ -1,0 +1,136 @@
+<html>
+
+<head>
+    <title>Curr&iacute;culo - Mateus Henrique</title>
+    <link rel="icon" type="image/x-icon" href="assets/imgs/ico.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="d-flex">
+        <nav class="sidebar d-flex flex-column flex-shrink-0 position-fixed">
+            <button class="toggle-btn" onclick="toggleSidebar()">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="p-4">
+                <h4 class="logo-text fw-bold mb-0">Curr&iacute;culo</h4>
+            </div>
+
+            <div class="nav flex-column">
+                <a href="index.html" class="sidebar-link text-decoration-none p-3">
+                    <i class="fas fa-home me-3"></i>
+                    <span class="hide-on-collapse">Sobre Mim</span>
+                </a>
+                <a href="expprof.html" class="sidebar-link active text-decoration-none p-3">
+                    <i class="fas fa-briefcase me-3"></i>
+                    <span class="hide-on-collapse">Experiências Profissionais</span>
+                </a>
+                <a href="projetos.html" class="sidebar-link text-decoration-none p-3">
+                    <i class="fas fa-tasks me-3"></i>
+                    <span class="hide-on-collapse">Projetos</span>
+                </a>
+
+                <a href="cursos.html" class="sidebar-link text-decoration-none p-3">
+                    <i class="fas fa-graduation-cap me-3"></i>
+                    <span class="hide-on-collapse">Cursos e Escolaridade</span>
+                </a>
+            </div>
+
+            <div class="profile-section mt-auto p-4">
+                <div class="d-flex align-items-center">
+                    <img src="assets/imgs/perfil.jpg" style="height:60px" class="rounded" alt="Foto de perfil">
+                    <div class="ms-3 profile-info">
+                        <h6 class="text-white mb-0">Mateus Henrique</h6>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <div class="container-fluid">
+                <h2>Experiências Profissionais</h2>
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col-md-2">
+                        <center>
+                            <a href="https://resende.rj.gov.br/" target="_blank" title="Página da Instituição">
+                                <img src="assets/imgs/logo_prefeitura.png" style="height:80px; margin-top: 8px;"
+                                    class="rounded">
+                            </a>
+                        </center>
+                    </div>
+                    <div class="col-md-10">
+                        <h6 style="margin-top: 2px;">Prefeitura Municipal de Resende <small>(2022 - atualmente)</small>
+                        </h6>
+                        <p>Técnico em Processamento de Dados</p>
+                        <p class="text-muted">Suporte; manutenção; redes; active directory; implementação de sistemas;
+                            integrações; desenvolvimento em: PHP, NodeJS, PostgreSQL (banco de dados).</p>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px;">
+                    <div class="col-md-2">
+                        <center>
+                            <a href="https://itatiaia.rj.gov.br/" target="_blank" title="Página da Instituição">
+                                <img src="assets/imgs/logo_itatiaia.png" style="height:80px; margin-top: 8px;"
+                                    class="rounded">
+                            </a>
+                        </center>
+                    </div>
+                    <div class="col-md-10">
+                        <h6 style="margin-top: 2px;">Prefeitura Municipal de Itatiaia <small>(2022 - 2022)</small>
+                        </h6>
+                        <p>Auxiliar de Técnico em Informática</p>
+                        <p class="text-muted">Suporte; manutenção; redes.</p>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px;">
+                    <div class="col-md-2">
+                        <center>
+                            <a href="https://econrio.com.br/" target="_blank" title="Página da Instituição">
+                                <img src="assets/imgs/logo_econrio.png" style="height:80px; margin-top: 8px;"
+                                    class="rounded">
+                            </a>
+                        </center>
+                    </div>
+                    <div class="col-md-10">
+                        <h6 style="margin-top: 2px;">ECONRIO <small>(2020 - 2025)</small></h6>
+                        <p>Desenvolvedor back-end</p>
+                        <p class="text-muted">Geração de relatórios (PostgreSQL); desenvolvimento em: PHP, C#,
+                            ColdFusion; metodologia ágil; suporte a usuário e a cliente;</p>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px;">
+                    <div class="col-md-2">
+                        <center>
+                            <a href="https://www.fat.uerj.br/" target="_blank" title="Página da Instituição">
+                                <img src="assets/imgs/logo_uerj.png" style="height:80px; margin-top: 1px;"
+                                    class="rounded">
+                            </a>
+                        </center>
+                    </div>
+                    <div class="col-md-10">
+                        <h6 style="margin-top: 2px;">UERJ - Resende <small>(2019 - 2023)</small></h6>
+                        <p>Bolsista</p>
+                        <p class="text-muted">Suporte e manutenção de computadores; desenvolvimento em: PHP e
+                            PostgreSQL(banco de dados);</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="assets/scripts_sidebar.js" integrity="sha256-O9xUYmnjR2x/9NQ35IRlbNx4xzpj/5nw2x31jNEknRo="
+            crossorigin="anonymous"></script>
+
+        <script src="assets/scripts_dinamico.js" integrity="sha256-PwKaSyvvt4vjmpcqF7jfEDnXX3DKxn8maFMJJXWNr2U="
+            crossorigin="anonymous"></script>  
+    </div>
+
+</body>
+
+</html>
